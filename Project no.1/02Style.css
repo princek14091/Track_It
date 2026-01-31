@@ -1,0 +1,53 @@
+/*This is the login page css code where we style the login box like 
+    1.Login box in center and the background in smooth blur
+    2.and in login box backround sone randon=m colour
+*/
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+
+}
+
+html,body{
+height:100%;
+width:100%;
+background: linear-gradient(135deg,#86ebf7,#ea6790);
+font-family: Arial, Helvetica, sans-serif;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.loginbox{
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    padding: 30px;
+    background:rgb(255, 255, 255,0.2);
+    text-align: center;
+    box-shadow: 0 0 30px gray;
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    box-shadow: 0,0,0,0,0.25;
+}
+
+.loginbox input{
+    width: 100%;
+    padding: 12px;
+    margin: 40px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.loginbox button{
+    width: 40%;
+    padding: 12px;
+    background-color: rgb(0, 12, 12);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
