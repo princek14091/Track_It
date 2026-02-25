@@ -1,0 +1,70 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+height:100%;
+width:100%;
+margin: 0;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,rgb(255, 128, 0),rgb(255, 255, 255),rgb(151, 25, 215));
+align-items: center;
+justify-content: center;
+
+}
+.kingsection{
+width: 90%;
+padding: 40px;
+height: 50%;
+background:rgba(247, 247, 247, 0.15);
+border-radius: 15px;
+color: #191919;
+box-shadow: 0 0 30px gray;
+}
+
+.navbar{
+    color: #3339e8;
+    text-decoration: none;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 130px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #0d2fa9;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+.btn:hover{
+ opacity: 0.9;
+ background-color: #0d4cca;
+}
+.hero{
+    margin: 50px;
+    width: 90%;
+   
+
+
+}
+
+.hero h1{
+
+font-size: 18px;
+margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+
+}
